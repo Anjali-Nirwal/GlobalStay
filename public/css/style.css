@@ -43,6 +43,7 @@ min-height: 100vh;
     margin-right: 2rem;
 }
 .f-info{
+    text-align: center;
     height: 8rem;
     background-color:#ebebeb ;
     justify-content: center;
@@ -52,7 +53,7 @@ min-height: 100vh;
 
 }
 /* cards */
-.card{
+ .listing-card{
     border: none !important;
     margin-bottom: 2rem;
 
@@ -75,10 +76,10 @@ min-height: 100vh;
 }
 /* Card effect */
 .card-img-overlay{
-    opacity: 0;
+    opacity: 5;
 }
 .card-img-overlay :hover{
-    opacity: 0.2;
+    opacity: 0.9;
     background-color: white;
 }
 /* new page new.ejs*/
